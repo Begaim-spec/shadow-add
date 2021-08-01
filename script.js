@@ -52,7 +52,7 @@ function generateBoxShadow () {
         spreadEd.innerHTML = `${spread.value}px inset`
     }
 
-inset
+
 }
 generateBoxShadow()
 

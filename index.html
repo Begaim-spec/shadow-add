@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./shadow-add/style.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./media.css">
 </head>
 <body>
 
@@ -25,7 +24,7 @@
                     <p>Horizontal Shadow Length </p>
                     <div class="slider"></div>
                 </div>
-                <input type="range" id= "offsetX">
+                <input type="range" id= "offsetX" value="25">
 
             </div>
             <div class="range-block">
@@ -33,28 +32,28 @@
                     <p>Vertical Shadow</p>
                     <div class="vertical"></div>
                 </div>
-                <input type="range" id= "offsetY">
+                <input type="range" id= "offsetY" value="25">
             </div>
             <div class="range-block">
                 <div class="line">
                     <p>Blur Radius</p>
                     <div class="blurRa"></div>
                 </div>
-                <input type="range" id= "blur">
+                <input type="range" id= "blur" value="25">
             </div>
             <div class="range-block">
                 <div class="line">
                     <p>Spread Radius</p>
                     <div class="spreadEd"></div>
                 </div>
-                <input type="range" id= "spread">
+                <input type="range" id= "spread" value="25">
             </div>
             <div class="range-block gradient">
-                <p class="switch">Shadow Color</p>
+                <p class="switch input-title">Shadow Color</p>
                 <input type="color" id= "color">
             </div>
             <div class="switch range-block">
-                <p>Inset</p>
+                <p class="input-title">Inset</p>
                 <label>
                     <input type="radio" class="inset private" name="type" checked>
                 </label>
