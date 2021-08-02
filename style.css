@@ -1,4 +1,4 @@
-body {
+.body {
     min-height: 450px;
     margin: 0;
     overflow-x: hidden;
@@ -119,9 +119,11 @@ input [type=color] {
     color: #236A62;
     font-size: 21px;
 }
-.switch{
+.switch {
     color: #236A62;
     font-size: 21px;
+    display: flex;
+    justify-content: space-between;
 }
 .gradient{
     margin: 0;
@@ -135,4 +137,7 @@ h1{
     font-size: 5em;
     color: #366B50;
     text-align: center;
+}
+.radio-btn{
+    margin-right: 25px;
 }

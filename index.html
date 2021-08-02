@@ -25,7 +25,7 @@
                     <p>Horizontal Shadow Length </p>
                     <div class="slider"></div>
                 </div>
-                <input type="range" id= "offsetX" value="25">
+                <input type="range" id= "offsetX" value="25" min="-200" max="200">
 
             </div>
             <div class="range-block">
@@ -33,21 +33,21 @@
                     <p>Vertical Shadow</p>
                     <div class="vertical"></div>
                 </div>
-                <input type="range" id= "offsetY" value="25">
+                <input type="range" id= "offsetY" value="25" min="-200" max="200">
             </div>
             <div class="range-block">
                 <div class="line">
                     <p>Blur Radius</p>
                     <div class="blurRa"></div>
                 </div>
-                <input type="range" id= "blur" value="25">
+                <input type="range" id= "blur" value="25" min="-200" max="200">
             </div>
             <div class="range-block">
                 <div class="line">
                     <p>Spread Radius</p>
                     <div class="spreadEd"></div>
                 </div>
-                <input type="range" id= "spread" value="25">
+                <input type="range" id= "spread" value="25" min="-200" max="200">
             </div>
             <div class="range-block gradient">
                 <p class="switch input-title">Shadow Color</p>
@@ -55,12 +55,14 @@
             </div>
             <div class="switch range-block">
                 <p class="input-title">Inset</p>
-                <label>
-                    <input type="radio" class="inset private" name="type" checked>
-                </label>
-                <label>
-                    <input type="radio" class="outset private" name="type">
-                </label>
+               <div class="radio-btn">
+                   <label>
+                       <input type="radio" class="inset private" name="type" checked>
+                   </label>
+                   <label>
+                       <input type="radio" class="outset private" name="type">
+                   </label>
+               </div>
             </div>
         </div>
         <div class="main-block">
